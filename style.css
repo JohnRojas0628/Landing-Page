@@ -1,0 +1,2021 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.nav{
+    grid-template-columns: (12,1fr);
+    grid-template-rows: minmax(1000px,auto);
+    grid-column: 1/13;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:48px;    
+}
+.menu ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 0px 136px 0px 136px;
+    list-style: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;    
+    width: 100%;
+    height:48px;
+    position:absolute;
+    margin-top: 18px;
+} 
+
+
+.nav .menu a{
+    color: #cecece;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.apple{
+    background-image: url("https://www.apple.com/ac/globalnav/6/es_CO/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg");
+    width: 16px;
+    height: 20px;
+    background-size: 16px 44px;
+    background-repeat: no-repeat; 
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-position: center center;
+    align-self: center;
+    flex: block;
+    display: flex;
+    
+}
+
+
+
+.search{
+    background-image: url("https://www.apple.com/ac/globalnav/6/es_CO/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__fca9mfoh8a2q_large.svg");
+    background-repeat: no-repeat; 
+    position: relative;
+    width: 18px;
+    height: 68px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-size: 18px 88px;
+    background-position: 0px -12px;
+}
+
+
+.banner{
+    grid-column: 1/13;
+    background-color: #111113;
+    color:#f5f5f7;
+    width: 100%;
+    height: 118px;
+    padding-top: 8px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+}
+
+.banner-nav{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    padding: 0px 200px 0px 200px;    
+}
+
+.nav-items{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;    
+}
+
+.nav-item{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 17px;
+    padding: 0 6px;
+}
+
+.item-iphone-12-pro .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-iphone-12-pro .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_12_pro_dark__c1xodf0hb1w2_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-iphone-12-pro .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+
+.item-iphone-12-pro .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+
+.item-iphone-12-pro .link .item-name:hover{
+    color: #2997ff; 
+}
+
+
+.item-iphone-12 .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-iphone-12 .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_12_dark__d7asodlag7e6_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-iphone-12 .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-iphone-12 .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.item-iphone-12 .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-iphone-se .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-iphone-se .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_se_dark__b1b8q1iya5o2_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-iphone-se .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-iphone-se .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-iphone-11 .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-iphone-11 .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_11_dark__di5n0jory1me_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-iphone-11 .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-iphone-11 .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-iphone-xr .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-iphone-xr .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_xr_dark__ft3blnh7c6q2_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-iphone-xr .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-iphone-xr .link .item-name:hover{
+    color: #2997ff; 
+}
+
+
+.item-iphone-xr .small-caps{
+    font-variant-caps: all-small-caps;
+}
+
+.item-compare .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-compare .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_comp_dark__yooc623t6cii_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-compare .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-compare .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.item-compare .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-airpods .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-airpods .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_airpods_dark__7rlhc1y4jc2m_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-airpods .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-airpods .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.item-airpods .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-airtag .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-airtag .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/airtag_dark__c6tern0u2pme_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-airtag .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-airtag .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.item-airtag .link .item-name:hover{
+    color: #2997ff; 
+}
+
+.item-item-ios .link{
+    display: block;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.item-item-ios .link .icon{
+    background: center bottom no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/chapternav/iphone_ios_dark__bx23cu2kt8mu_large.svg");
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.item-item-ios .link .item-name{
+    font-size: 12px;
+    line-height:1.33337;
+    font-weight: 400;
+    display: block;
+    margin:0;
+    text-decoration: none;
+    color: #e3e3e5;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.item-item-ios .link .new{
+    color: #f56300;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.item-item-ios .link .item-name:hover{
+    color: #2997ff; 
+}
+
+/*
+Section iPhone 12
+*/
+
+.main .section-buy .iphone-12{
+    display: flex;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 13px;
+    background-color: #f2f2f2;
+}
+.main .section-buy .iphone-12-pro{
+    display: flex;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 13px;
+    background-color: #000000;
+}
+
+.main .section-buy .iphone-12 .content,
+.main .section-buy .iphone-12-pro .content{
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main .section-buy .iphone-12 .content .text,
+.main .section-buy .iphone-12-pro .content .text{
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.main .section-buy .iphone-12 .content .text,
+.main .section-buy .iphone-12-pro .content .text{
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.main .section-buy .iphone-12 .content .text .h2{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#1d1d1f;
+}
+.main .section-buy .iphone-12-pro .content .text .h2{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#ffffff;
+}
+.main .section-buy .iphone-12 .content .text .p{
+
+    margin-top: 9px;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: .003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#1d1d1f;
+}
+.main .section-buy .iphone-12-pro .content .text .p{
+
+    margin-top: 9px;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: .003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#ffffff;
+}
+.main .section-buy .iphone-12 .content .text .links,
+.main .section-buy .iphone-12-pro .content .text .links{
+    flex-direction: column;
+    margin:29px;
+    display: flex;
+    justify-content: center;
+
+}
+.main .section-buy .iphone-12 .content .text .links .li,
+.main .section-buy .iphone-12-pro .content .text .links .li{
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.main .section-buy .iphone-12 .content .text .links .li .button,
+.main .section-buy .iphone-12-pro .content .text .links .li .button{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.main .section-buy .iphone-12 .content .text .links .li .mas-informacion,
+.main .section-buy .iphone-12-pro .content .text .links .li .mas-informacion{
+    text-decoration: none;
+}
+.main .section-buy .iphone-12 .content .text .links .li .mas-informacion .informacion,
+.main .section-buy .iphone-12-pro .content .text .links .li .mas-informacion .informacion{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #06c;
+}
+.main .section-buy .iphone-12 .content .text .links .li .mas-informacion .icon,
+.main .section-buy .iphone-12-pro .content .text .links .li .mas-informacion .icon{
+    color: #06c;
+}
+.main .section-buy .iphone-12 .content .section-image,
+.main .section-buy .iphone-12-pro .content .section-image{
+    flex-basis: 100%;
+    min-width: 100%;
+    padding-left: 3%;
+
+}
+.main .section-buy .iphone-12 .content .section-image .image{ 
+  
+    width: 100%;
+    height: 452px;
+    background-size: 1263px 452px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/co/iphone/home/images/overview/hero/iphone_12__d51ddqcc7oqe_large_2x.jpg");
+    position:relative;
+    }
+
+.main .section-buy .iphone-12-pro .content .section-image .image{ 
+    width: 100%;
+    height: 452px;
+    background-size: 1263px 452px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/hero/iphone_12_pro__f7wokw1n4lm6_large_2x.jpg");
+    position:relative;
+  
+}
+
+/*section-compare*/
+
+.main .section-compare{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.main .section-compare .content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .section-compare .content .h2{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .title{
+    margin-top: 26px;
+    font-size: 24px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .title .compare-models{
+    text-decoration: none;
+}
+.main .section-compare .content .title .compare-models:hover{
+    text-decoration-color: #06c;
+}
+.main .section-compare .content .title .compare-models .comparar{
+    text-decoration: none;
+    color: #06c;
+}
+.main .section-compare .content .title .compare-models .comparar:hover{
+    text-decoration-color: #06c;
+    color: #06c;
+}
+.main .section-compare .content .title .compare-models .icon{
+    font-family: "SF Pro Icons";
+    text-decoration: none;
+    color: #06c;
+    line-height: 1;
+}
+
+
+.main .section-compare .content .table{
+    position: relative;
+    left: 15%;
+    margin-top: 66px;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-row-gap: 23px;
+    grid-column-gap: 34px;
+    grid-template-areas: 
+        "iphone-12-pro iphone-12 iphone-se iphone-11"
+        "row2 row2-2 row2-3 row2-4"
+        "row3 row3-2 row3-3 row3-4"
+        "row4 row4-2 row4-3 row4-4"
+        "row5 row5-2 row5-3 row5-4"
+        "row6 row6-2 row6-3 row6-4"
+        "row7 row7-2 row7-3 row7-4"
+        "row8 row8-2 row8-3 row8-4";
+    
+}
+
+/*column .iphone-12-pro*/
+.main .section-compare .content .table .iphone-12-pro{
+    grid-area: iphone-12-pro;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.main .section-compare .content .table .iphone-12-pro .image-part{
+    min-height: 256px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.main .section-compare .content .table .iphone-12-pro .image-part .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_large_2x.jpg");
+    width: 199px;
+    height: 256px;
+    background-size: 199px 256px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-compare .content .table .iphone-12-pro .content-row .h3{
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row .h3 .new{
+    position: absolute;
+    left: 86px;
+    top: -22px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color: #bf4800;
+    text-align: center;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row .h3 .image-content-row{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/logo_iphone_12_pro__br8wk5kpcq4i_large_2x.png");
+    margin-bottom: 4px;
+    width: 135px;
+    height: 25px;
+    background-size: 135px 20px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row .circle-image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_12_pro__for4g8pne0ey_large.jpg");
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 97px;
+    height: 19px;
+    background-size: 97px 19px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: 160px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+}
+.main .section-compare .content .table .iphone-12-pro .content-row .button{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    min-width: 23px;
+    padding: 4px 11px 4px 11px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 30px;
+}
+.main .section-compare .content .table .row2{
+    grid-area: row2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main .section-compare .content .table .row2 .h4{
+    font-weight: 600;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .table .row2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row2 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row2 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row3{
+    grid-area: row3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row3 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_5g__ew2qs88wie4i_large_2x.png");
+    margin-bottom: 8px;
+    width: 50px;
+    height: 36px;
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row3 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row3 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row4{
+    grid-area: row4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row4 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_a14__e0ozekurulm6_large_2x.png");
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row4 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+
+.main .section-compare .content .table .row5{
+    grid-area: row5;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row5 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_triple_camera__e6vgz42wpwom_large_2x.png");
+    margin-bottom: 8px;
+    width: 37px;
+    height: 39px;
+    background-size: 37px 39px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row5 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row5 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row6{
+    grid-area: row6;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row6 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_lidar__f6bhejsvbdqy_large_2x.png");
+    margin-bottom: 8px;
+    width: 35px;
+    height: 39px;
+    background-size: 35px 39px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row6 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row6 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+
+.main .section-compare .content .table .row7{
+    grid-area: row7;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row7 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_magsafe__ibh1kzdigzqm_large_2x.png");
+    margin-bottom: 8px;
+    width: 27px;
+    height: 53px;
+    background-size: 27px 53px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row7 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row8{
+    grid-area: row8;
+    flex-direction: column;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 2px;
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.main .section-compare .content .table .row8 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+.main .section-compare .content .table .row8 .p .mas-informacion{
+    text-decoration: none;
+}
+.main .section-compare .content .table .row8 .p .mas-informacion .informacion{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#06c;
+}
+.main .section-compare .content .table .row8 .p .mas-informacion .icon{
+    color:#06c;
+}
+
+
+
+
+
+/*******************************column .iphone-12**********************************************/
+.main .section-compare .content .table .iphone-12{
+    grid-area: iphone-12;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.main .section-compare .content .table .iphone-12 .image-part{
+    min-height: 256px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.main .section-compare .content .table .iphone-12 .image-part .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_12__btq63lk8td7m_large_2x.jpg");
+    width: 186px;
+    height: 256px;
+    background-size: 186px 256px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12 .content-row{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-compare .content .table .iphone-12 .content-row .h3{
+    font-weight: 600;
+    color: #1d1d1f;
+    
+}
+.main .section-compare .content .table .iphone-12 .content-row .h3 .new{
+    position:absolute;
+    left: 86px;
+    top: -22px;
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color: #bf4800;
+}
+.main .section-compare .content .table .iphone-12 .content-row .h3 .image-content-row{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/logo_iphone_12__eqvpg3surxyu_large_2x.png");
+    margin-bottom: 4px;
+    width: 97px;
+    height: 20px;
+    background-size: 97px 20px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12 .content-row .circle-image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_12__5s5b8qkrwtem_large_2x.jpg");
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 149px;
+    height: 19px;
+    background-size: 149px 19px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-12 .content-row .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: 160px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+}
+.main .section-compare .content .table .iphone-12 .content-row .button{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    min-width: 23px;
+    padding: 4px 11px 4px 11px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 60px;
+}
+.main .section-compare .content .table .row2-2{
+    grid-area: row2-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main .section-compare .content .table .row2-2 .h4{
+    font-weight: 600;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .table .row2-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row2-2 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row2-2 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row3-2{
+    grid-area: row3-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row3-2 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_5g__ew2qs88wie4i_large_2x.png");
+    margin-bottom: 8px;
+    width: 50px;
+    height: 36px;
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row3-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row3-2 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row3-2 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row4-2{
+    grid-area: row4-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row4-2 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_a14__e0ozekurulm6_large_2x.png");
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row4-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row4-2 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+
+.main .section-compare .content .table .row5-2{
+    grid-area: row5-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row5-2 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_dual_camera__gdty7h2x33yq_large.png");
+    margin-bottom: 8px;
+    width: 35px;
+    height: 39px;
+    background-size: 35px 39px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row5-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row5-2 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row6-2{
+    grid-area: row6-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.main .section-compare .content .table .row6-2 .p .span{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.main .section-compare .content .table .row7-2{
+    grid-area: row7-2;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row7-2 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_magsafe_dual_camera__c2d4nw27c98i_large_2x.png");
+    margin-bottom: 8px;
+    width: 27px;
+    height: 53px;
+    background-size: 27px 53px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row7-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row8-2{
+    grid-area: row8-2;
+    flex-direction: column;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 2px;
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.main .section-compare .content .table .row8-2 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+.main .section-compare .content .table .row8-2 .p .mas-informacion{
+    text-decoration: none;
+}
+.main .section-compare .content .table .row8-2 .p .mas-informacion .informacion{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#06c;
+}
+.main .section-compare .content .table .row8-2 .p .mas-informacion .icon{
+    color:#06c;
+}
+
+
+/*******************************column .iphone-se**********************************************/
+.main .section-compare .content .table .iphone-se{
+    grid-area: iphone-se;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.main .section-compare .content .table .iphone-se .image-part{
+    min-height: 256px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.main .section-compare .content .table .iphone-se .image-part .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_se__1uyg4tzyd4ya_large.jpg");
+    width: 136px;
+    height: 256px;
+    background-size: 136px 256px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-se .content-row{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-compare .content .table .iphone-se .content-row .h3{
+    font-weight: 600;
+    color: #1d1d1f;
+    
+}
+
+.main .section-compare .content .table .iphone-se .content-row .h3 .image-content-row{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/logo_iphone_se__bea8e33z0pf6_large_2x.png");
+    margin-bottom: 4px;
+    width: 98px;
+    height: 20px;
+    background-size: 98px 20px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-se .content-row .circle-image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_se__d3qy28c9nk2u_large.jpg");
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 71px;
+    height: 19px;
+    background-size: 71px 19px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-se .content-row .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: 160px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+}
+.main .section-compare .content .table .iphone-se .content-row .button{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    min-width: 23px;
+    padding: 4px 11px 4px 11px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 35px;
+}
+.main .section-compare .content .table .row2-3{
+    grid-area: row2-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main .section-compare .content .table .row2-3 .h4{
+    font-weight: 600;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .table .row2-3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row3-3{
+    grid-area: row3-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row3-3 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_4g__eh3wh0hlt7ue_large_2x.png");
+    margin-bottom: 8px;
+    width: 50px;
+    height: 37px;
+    background-size: 50px 37px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row3-3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row3-3 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row3-3 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row4-3{
+    grid-area: row4-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row4-3 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_a13__eb929073vcae_large_2x.png");
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;   
+}
+
+.main .section-compare .content .table .row4-3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+
+.main .section-compare .content .table .row5-3{
+    grid-area: row5-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row5-3 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_single_camera__c8fs0xdplqy6_large_2x.png");
+    margin-bottom: 8px;
+    width: 39px;
+    height: 39px;
+    background-size: 39px 39px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row5-3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row5-3 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row6-3{
+    grid-area: row6-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.main .section-compare .content .table .row6-3 .p .span{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.main .section-compare .content .table .row7-3{
+    grid-area: row7-3;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.main .section-compare .content .table .row7-3 .p .span{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .section-compare .content .table .row8-3{
+    grid-area: row8-3;
+    flex-direction: column;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 2px;
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.main .section-compare .content .table .row8-3 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+.main .section-compare .content .table .row8-3 .p .mas-informacion{
+    text-decoration: none;
+}
+.main .section-compare .content .table .row8-3 .p .mas-informacion .informacion{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#06c;
+}
+.main .section-compare .content .table .row8-3 .p .mas-informacion .icon{
+    color:#06c;
+}
+
+
+
+/*******************************column .iphone-11**********************************************/
+.main .section-compare .content .table .iphone-11{
+    grid-area: iphone-11;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.main .section-compare .content .table .iphone-11 .image-part{
+    min-height: 256px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.main .section-compare .content .table .iphone-11 .image-part .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/compare_iphone_11__bzjboswm5hbm_large_2x.jpg");
+    width: 155px;
+    height: 256px;
+    background-size: 155px 256px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-11 .content-row{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .section-compare .content .table .iphone-11 .content-row .h3{
+    font-weight: 600;
+    color: #1d1d1f;
+    
+}
+
+.main .section-compare .content .table .iphone-11 .content-row .h3 .image-content-row{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/logo_iphone_11__bpdthgl1t6dy_large_2x.png");
+    margin-bottom: 4px;
+    width: 101px;
+    height: 20px;
+    background-size: 101px 20px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-11 .content-row .circle-image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/swatches_iphone_11__cu7cy45l7iy6_large.jpg");
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 149px;
+    height: 19px;
+    background-size: 149px 19px;
+    background-repeat: no-repeat;
+}
+.main .section-compare .content .table .iphone-11 .content-row .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: 160px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+}
+.main .section-compare .content .table .iphone-11 .content-row .button{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    min-width: 23px;
+    padding: 4px 11px 4px 11px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 60px;
+}
+.main .section-compare .content .table .row2-4{
+    grid-area: row2-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main .section-compare .content .table .row2-4 .h4{
+    font-weight: 600;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-compare .content .table .row2-4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row2-4 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+.main .section-compare .content .table .row2-4 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row3-4{
+    grid-area: row3-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row3-4 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_4g__eh3wh0hlt7ue_large_2x.png");
+    margin-bottom: 8px;
+    width: 50px;
+    height: 37px;
+    background-size: 50px 37px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row3-4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row3-4 .p .note{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: initial;    
+    position: relative;
+    vertical-align: baseline;
+    font-feature-settings: "numr";
+    font-size: 1em;
+    line-height: 1.42859;
+    font-weight: 400;
+    
+}
+
+.main .section-compare .content .table .row3-4 .p .note .footnote{
+    text-decoration: none;
+    position: relative;
+    left: -4px;  
+}
+
+.main .section-compare .content .table .row4-4{
+    grid-area: row4-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row4-4 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_a13__eb929073vcae_large_2x.png");
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;   
+}
+
+.main .section-compare .content .table .row4-4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+
+.main .section-compare .content .table .row5-4{
+    grid-area: row5-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.main .section-compare .content .table .row5-4 .image{
+    background-image: url("https://www.apple.com/v/iphone/home/ay/images/overview/compare/icon_dual_camera__gdty7h2x33yq_large_2x.png");
+    margin-bottom: 8px;
+    width: 35px;
+    height: 39px;
+    background-size: 35px 39px;
+    background-repeat: no-repeat;
+    
+}
+
+.main .section-compare .content .table .row5-4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+.main .section-compare .content .table .row5-4 .p1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.42859;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+}
+
+.main .section-compare .content .table .row6-4{
+    grid-area: row6-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.main .section-compare .content .table .row6-4 .p .span{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.main .section-compare .content .table .row7-4{
+    grid-area: row7-4;
+    flex-direction: column;
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.main .section-compare .content .table .row7-4 .p .span{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .section-compare .content .table .row8-4{
+    grid-area: row8-4;
+    flex-direction: column;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 2px;
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.main .section-compare .content .table .row8-4 .p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+.main .section-compare .content .table .row8-4 .p .mas-informacion{
+    text-decoration: none;
+}
+.main .section-compare .content .table .row8-4 .p .mas-informacion .informacion{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#06c;
+}
+.main .section-compare .content .table .row8-4 .p .mas-informacion .icon{
+    color:#06c;
+}
+
+
+
+/***************Section-accesories*************/
+.main .section-accesories{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 110px;
+    width: auto;
+    max-width: 1440px;
+    background-color: #f2f2f2;
+}
+.main .section-accesories .h2{
+    margin-bottom: 70px;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+
+
+}
+.main .section-accesories .accesories,
+.main .section-accesories .accesories2,
+.main .section-accesories .accesories3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1070px;
+    min-height: 530px;
+    margin: 0 auto 10px;
+    padding: 75px 0;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+}
+
+.main .section-accesories .accesories .description,
+.main .section-accesories .accesories .description2,
+.main .section-accesories .accesories .description3{
+    flex-basis: 50%;
+    min-width: 50%;
+    margin-left: 60px;
+}
+.main .section-accesories .accesories .description .h3,
+.main .section-accesories .accesories2 .description .h3,
+.main .section-accesories .accesories3 .description .h3{
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main .section-accesories .accesories .description .p,
+.main .section-accesories .accesories2 .description .p,
+.main .section-accesories .accesories3 .description .p{
+    width: 290px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+.main .section-accesories .accesories .section-image,
+.main .section-accesories .accesories2 .section-image,
+.main .section-accesories .accesories3 .section-image{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.main .section-accesories .accesories .section-image .image{
+    background-image: url("https://www.apple.com/co/iphone/home/images/overview/accessories/magsafe__b2nmlrkzfyxe_medium_2x.jpg");
+    width: 389px;
+    height: 394px;
+    background-size: 389px 394px;
+    background-repeat: no-repeat;
+}
+.main .section-accesories .accesories2 .section-image .image{
+    background-image: url("https://www.apple.com/co/iphone/home/images/overview/accessories/airtag__ctmtc9km6r2a_large_2x.jpg");
+    width: 699px;
+    height: 531px;
+    background-size: 699px 531px;
+    background-repeat: no-repeat;
+}
+.main .section-accesories .accesories3 .section-image .image{
+    background-image: url("https://www.apple.com/co/iphone/home/images/overview/accessories/iphone_airpods_engraving__c69dhotva0wi_large_2x.png");
+    width: 389px;
+    height: 220px;
+    background-size: 389px 220px;
+    background-repeat: no-repeat;
+}
+
+
+
+ 
+
+
+
+
+
